@@ -10,7 +10,7 @@ function calcular(){
          
     
 
-    // pmt = valor mensal a ser financiado
+   
     var p = ((1+juros)**meses-1)/juros // vf = valor poupado no futuro
     var vf = mensal*p.toFixed(2)
   
